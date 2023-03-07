@@ -16,7 +16,76 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header id="header">
+            <div>
+                <img src="/images/logo/Booki.png" alt="logo de Booki">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="HébergementsAnchor">Hébergements</a></li>
+                    <li><a href="#ActivitésAnchor">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="recherche-and-filtres">
+            <section class="recherche">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+                <form class="barre-de-recherche" action="#" method="GET">
+                    <div class="conteneur-marker">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <input type="search" placeholder="Marseille, France">
+                    <button class="bouton">
+                        <span>Rechercher</span>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </section>
+
+            <section class="filtresConteneur">               
+                    <div class="filtreTexte">Filtres</div>
+
+                    <div class="filtres">
+                        <div class="filtre">
+                            <div>
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                            </div>
+                            <div class="filtreTexte">Économique</div>
+                        </div>
+
+                        <div class="filtre">
+                            <div>
+                                <i class="fa-solid fa-child"></i>
+                            </div>
+                            <div class="filtreTexte">Familial</div>
+                        </div>
+
+                        <div class="filtre">
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="filtreTexte">Romantique</div>
+                        </div>
+
+                        <div class="filtre">
+                            <div>
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
+                            <div class="filtreTexte">Nos pépites</div>
+                        </div>
+                    </div>
+            </section>
+            <section class="infoConteneur">
+                <div class="infoIconeConteneur">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponible dans cette ville</p>
+            </section>
+        </section>
+
+
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
