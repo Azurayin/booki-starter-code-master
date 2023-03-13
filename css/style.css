@@ -254,7 +254,6 @@ input::placeholder{
     flex-direction: column;
     margin-top: 33px;
     width: 30%;
-    height: 40%;
 }
 
 .hebergements-cards img{
@@ -349,7 +348,6 @@ input::placeholder{
 /****** Activités ***************/
 
 .activites{
-    border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -359,8 +357,13 @@ input::placeholder{
     justify-content: space-between;
 }
 
+.activites-cards a{
+    width: 23%;
+}
+
 .activites-cards .card{
-    width: 22%;
+    padding: 0px;
+    height: 100%;
 }
 
 .activites-cards img{
@@ -370,12 +373,12 @@ input::placeholder{
     border-top-left-radius: 20px;
 }
 
-.activites .card-content{
-    height: 20%;
-}
+
 
 .activites-cards .card-title{
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 
