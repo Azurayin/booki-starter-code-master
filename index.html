@@ -20,8 +20,8 @@
             <div>
                 <img src="/images/logo/Booki.png" alt="logo de Booki">
             </div>
-            <nav>
-                <ul>
+            <nav aria-label="Menu du site">
+                <ul  class="menu-navigation">
                     <li><a href="#HebergementsAnchor">Hébergements</a></li>
                     <li><a href="#ActivitesAnchor">Activités</a></li>
                 </ul>
@@ -200,7 +200,7 @@
                             </a>
                         </article>
                     </div>
-                    <div class="moreInfo">Afficher plus</div>                
+                    <div class="moreInfo"><a href="#">Afficher plus</a></div>                
                 </section>
 
                 <section class="populaires">
@@ -300,8 +300,40 @@
 
 
         </main>
-        <footer>
 
+        <!-- footer -->
+        <footer>
+            <section class="a-propos"> 
+                <h3>A Propos</h3>
+                <nav aria-label="à propos">
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="nos-hebergements">
+                <h3>Nos hébergements</h3>
+                <nav aria-label="nos-hebergements">
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Proposer votre hotel</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="assistance">
+                <h3>Assistance</h3>
+                <nav aria-label="assistance">
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
         </footer>
     </div>
 </body>

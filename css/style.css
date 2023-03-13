@@ -66,6 +66,13 @@ a {
     font-size: 13px;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
 /****** Header ***************/
 header {
     display: flex;
@@ -81,17 +88,14 @@ header img {
     width: 70px;
 }
 
-nav ul{
+.menu-navigation{
     display: flex;
     justify-content: space-between;
     
 }
-ul {
-    margin: 0px;
-}
 
-li {
-    list-style: none;
+
+.menu-navigation li {
     margin-top: 0px;
     margin-left: 70px;
     padding-top: 10px;
@@ -306,6 +310,7 @@ input::placeholder{
     align-items: center;
 }
 
+
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
@@ -378,8 +383,22 @@ input::placeholder{
 
 footer{
     background-color: var(--main-bg-color);
-    padding: 30px;
+    padding-left: 30px;
+    display: flex;
 }
+
+footer section{
+    width: 33%;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer a:hover{
+    color: var(--main-color);
+}
+ 
 
 
 
