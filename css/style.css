@@ -564,6 +564,7 @@ footer a{
     .filtre {
         width: 35%;
         margin-bottom: 20px;
+        font-size: 14px;
     }
 
     .filtre:active {
